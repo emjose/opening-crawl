@@ -39,7 +39,6 @@ body::after {
   height: 100%;
   width: 60%;
   margin: 0 auto;
-  /* z-index: 2; */
   perspective: 900px;
 }
 
@@ -67,9 +66,6 @@ h2 {
   text-align: center;
   text-justify: inter-word;
 }
-h1,
-h2 {
-}
 
 html {
   background: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1613457723/100%20Days%20Of%20Code/Rooting_wallpaper_wqnru2.jpg")
@@ -82,11 +78,11 @@ html {
   min-width: 1024px;
   z-index: -1;
 
-  /* Set up proportionate scaling */
+  /* Proportionate scaling */
   width: 100%;
   height: auto;
 
-  /* Set up positioning */
+  /* Positioning */
   position: fixed;
   top: 0;
   left: 0;
@@ -104,7 +100,6 @@ html {
 }
 
 @media screen and (max-width: 1024px) {
-  /* Specific to this particular image */
   html {
     left: 50%;
     margin-left: -512px; /* 50% */
