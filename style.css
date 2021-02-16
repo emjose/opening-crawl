@@ -1,4 +1,5 @@
 @import url("https://use.typekit.net/eia7dfc.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
 
 /* body {
   background: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1613436052/100%20Days%20Of%20Code/spacewallpaper_tusgkh.jpg")
@@ -11,7 +12,7 @@
 } */
 
 body {
-  font-family: news-gothic-std, sans-serif;
+  font-family: "Roboto";
   font-weight: 400;
   font-style: normal;
   overflow: hidden;
@@ -24,7 +25,7 @@ body::after {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 40%;
+  height: 20%;
   /* background to fade out the text as it goes up */
   background: linear-gradient(
     180deg,
@@ -36,27 +37,26 @@ body::after {
 .wrapper {
   display: flex;
   height: 100%;
-  width: 55%;
+  width: 60%;
   margin: 0 auto;
   /* z-index: 2; */
-  perspective: 800px;
+  perspective: 900px;
 }
 
 .scroll-text {
   color: #ffc909;
   font-size: 3vw;
   line-height: 1.5em;
-  font-weight: bold;
-  /* letter-spacing: 0.2em; */
+  font-weight: normal;
   text-align: justify;
   text-justify: inter-word;
   position: relative;
   align-items: center;
-  animation: scroll 70s linear forwards;
+  animation: scroll 65s linear forwards;
 }
 
 h1 {
-  font-size: 10vw;
+  font-size: 8vw;
   text-align: center;
   text-justify: inter-word;
   line-height: 1.25em;
