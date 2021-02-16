@@ -1,3 +1,5 @@
+@import url("https://use.typekit.net/eia7dfc.css");
+
 /* body {
   background: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1613436052/100%20Days%20Of%20Code/spacewallpaper_tusgkh.jpg")
     no-repeat center center/cover;
@@ -7,6 +9,14 @@
   justify-content: center;
   z-index: -2;
 } */
+
+body {
+  font-family: news-gothic-std, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+}
 
 html {
   background: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1613436052/100%20Days%20Of%20Code/spacewallpaper_tusgkh.jpg")
