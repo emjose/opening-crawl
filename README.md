@@ -26,6 +26,7 @@
 - [Installation](#installation) 
 - [Live Site](#live-site)
 - [Resources](#resources)
+- [Copyright](#copyright)
 - [Let's Connect!](#lets-connect) 
 
 #
@@ -34,7 +35,10 @@
 
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
-<a href=#100days>![Under Construction](Assets/lorem-text.png)</a>
+### Day 13: February 19, 2021
+- I love <a href="https://www.starwars.com/">Star Wars</a> and <a href="http://www.vh1.com/shows/americas-next-top-model">America's Next Top Model</a> (ANTM), so I made a Star Wars-style opening crawl of Tyra Banks' iconic <a href="https://youtu.be/C6OhhUDQJU4?t=282">"We were all rooting for you" speech</a>. 
+  
+- I attempted to add the <a href="https://youtu.be/CaWHI2_cDHI">ANTM winner's song</a> to the opening crawl, but the audio only worked on the first play, and not on subsequent reloads.
 
 #
 
@@ -57,7 +61,7 @@ open index.html
 
 <a href="https://emjose.github.io/opening-crawl/">![Live Site](Assets/inter-live-site.png)</a>  
 
-<a href="https://emjose.github.io/opening-crawl/">![Under Construction](Assets/lorem-live.png)</a>
+<a href="https://emjose.github.io/opening-crawl/">![Live Site](Assets/013-antm.gif)</a>
 
 #
 
@@ -65,7 +69,27 @@ open index.html
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>  
 
-<a href=#resources>![Under Construction](Assets/lorem-text.png)</a>
+- #### [All Nine Star Wars Opening Crawls](https://youtu.be/kG58selILLs)
+
+- #### [Star Wars Scrolling Text Tutorial](https://youtu.be/kHrV2ZHzF-0) by [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
+
+- #### [America's Next Top Model Winner's Song "Free For All" by Nick Nolan](https://youtu.be/CaWHI2_cDHI)
+
+- #### ["The Girl Who Pushes Tyra Over the Edge" Episode Synopsis from IMDb.com](https://www.imdb.com/title/tt0511485/)
+
+- #### [Clip from America's Next Top Model, Season 4, Episode 7: The Girl Who Pushes Tyra Over the Edge](https://youtu.be/C6OhhUDQJU4)
+
+#
+
+<p id="copyright"><p>
+
+<a href=#copyright>![Copyright](Assets/inter-copyright.png)</a>
+
+- This project is for made for educational purposes only. 
+
+- <a href="https://www.starwars.com/">Star Wars</a> is trademarked by <a href="https://www.lucasfilm.com/">Lucasfilm Ltd.</a>. TM & © Lucasfilm Ltd. All Rights Reserved.
+  
+- <a href="http://www.vh1.com/shows/americas-next-top-model">America's Next Top Model</a> is copyright of <a href="https://www.viacomcbs.com/">ViacomCBS</a>. © ViacomCBS Inc. All Rights Reserved.
 
 #
 
