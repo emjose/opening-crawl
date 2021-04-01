@@ -79,6 +79,8 @@ open index.html
 
 - #### [Clip from America's Next Top Model, Season 4, Episode 7: The Girl Who Pushes Tyra Over the Edge](https://youtu.be/C6OhhUDQJU4)
 
+- #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd) 
+
 #
 
 <p id="copyright"><p>
