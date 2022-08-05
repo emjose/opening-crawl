@@ -38,6 +38,7 @@
 ### Day 13: February 19, 2021
 
 -   I love <a href="https://www.starwars.com/">Star Wars</a> and <a href="http://www.vh1.com/shows/americas-next-top-model">America's Next Top Model</a> (ANTM), so I made a Star Wars-style opening crawl of Tyra Banks' iconic <a href="https://youtu.be/C6OhhUDQJU4?t=282">"We were all rooting for you" speech</a>.
+
 -   I attempted to add the <a href="https://youtu.be/CaWHI2_cDHI">ANTM winner's song</a> to the opening crawl, but the audio only worked on the first play, and not on subsequent reloads.
 
 #
@@ -48,13 +49,13 @@
 
 #### Git clone and cd into the repo folder:
 
-```
+```console
 git clone git@github.com:emjose/opening-crawl.git && cd opening-crawl
 ```
 
 #### Run the command:
 
-```
+```console
 open index.html
 ```
 
@@ -93,6 +94,7 @@ open index.html
 -   This project is for made for educational purposes only.
 
 -   <a href="https://www.starwars.com/">Star Wars</a> is trademarked by <a href="https://www.lucasfilm.com/">Lucasfilm Ltd.</a>. TM & © Lucasfilm Ltd. All Rights Reserved.
+
 -   <a href="http://www.vh1.com/shows/americas-next-top-model">America's Next Top Model</a> is copyright of <a href="https://www.viacomcbs.com/">ViacomCBS</a>. © ViacomCBS Inc. All Rights Reserved.
 
 #
