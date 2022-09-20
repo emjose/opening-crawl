@@ -1,28 +1,34 @@
 @import url("https://use.typekit.net/eia7dfc.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
 
-/* body {
-  background: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1613436052/100%20Days%20Of%20Code/spacewallpaper_tusgkh.jpg")
-    no-repeat center center/cover;
-  width: 100%;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-  z-index: -2;
-} */
+:root {
+	--black: #000;
+	--white: #fff;
+	--yellow: #ffc909;
+	--roboto: "Roboto";
+	--gradient: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 80%, rgba(19, 19, 19, 0) 100%);
+	--space-image: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1613457723/100%20Days%20Of%20Code/Rooting_wallpaper_wqnru2.jpg")
+		no-repeat center center fixed;
+	--github-fill: var(--yellow);
+	--github-color: var(--black);
+	--github-focus: var(--white);
+}
 
 body {
-	font-family: "Roboto";
+	font-family: var(--roboto);
 	font-weight: 400;
 	font-style: normal;
 	overflow: hidden;
 	margin: 0% 0 0 0;
 	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .github-corner {
 	z-index: 1000;
 }
+
 wrapper::after {
 	content: "";
 	position: fixed;
@@ -30,7 +36,7 @@ wrapper::after {
 	width: 100%;
 	height: 20%;
 	/* background to fade out the text as it goes up */
-	background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 80%, rgba(19, 19, 19, 0) 100%);
+	background: var(--gradient);
 }
 
 .wrapper {
@@ -42,7 +48,7 @@ wrapper::after {
 }
 
 .scroll-text {
-	color: #ffc909;
+	color: var(--yellow);
 	font-size: 3vw;
 	line-height: 1.5em;
 	font-weight: normal;
@@ -59,6 +65,7 @@ h1 {
 	text-justify: inter-word;
 	line-height: 1.25em;
 }
+
 h2 {
 	font-size: 5vw;
 	line-height: 1.25em;
@@ -67,8 +74,7 @@ h2 {
 }
 
 html {
-	background: url("https://res.cloudinary.com/dn1e07eul/image/upload/v1613457723/100%20Days%20Of%20Code/Rooting_wallpaper_wqnru2.jpg")
-		no-repeat center center fixed;
+	background: var(--space-image);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -85,6 +91,43 @@ html {
 	position: fixed;
 	top: 0;
 	left: 0;
+}
+
+.github-corner:focus svg path {
+	fill: var(--github-focus);
+}
+
+.github-corner:focus .octo-arm,
+.github-corner:focus .octo-body {
+	fill: var(--github-color);
+}
+
+.github-corner:focus .octo-arm,
+.github-corner:hover .octo-arm {
+	animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+	0%,
+	100% {
+		transform: rotate(0);
+	}
+	20%,
+	60% {
+		transform: rotate(-25deg);
+	}
+	40%,
+	80% {
+		transform: rotate(10deg);
+	}
+}
+@media (max-width: 500px) {
+	.github-corner:hover .octo-arm {
+		animation: none;
+	}
+	.github-corner .octo-arm {
+		animation: octocat-wave 560ms ease-in-out;
+	}
 }
 
 @keyframes scroll {

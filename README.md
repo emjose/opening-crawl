@@ -29,6 +29,8 @@
 -   [Copyright](#copyright)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="100days"><p>
@@ -40,6 +42,8 @@
 -   I love <a href="https://www.starwars.com/">Star Wars</a> and <a href="http://www.vh1.com/shows/americas-next-top-model">America's Next Top Model</a> (ANTM), so I made a Star Wars-style opening crawl of Tyra Banks' iconic <a href="https://youtu.be/C6OhhUDQJU4?t=282">"We were all rooting for you" speech</a>.
 
 -   I attempted to add the <a href="https://youtu.be/CaWHI2_cDHI">ANTM winner's song</a> to the opening crawl, but the audio only worked on the first play, and not on subsequent reloads.
+
+<br>
 
 #
 
@@ -59,6 +63,8 @@ git clone git@github.com:emjose/opening-crawl.git && cd opening-crawl
 open index.html
 ```
 
+<br>
+
 #
 
 <p id="live-site"><p>
@@ -66,6 +72,12 @@ open index.html
 <a href="https://emjose.github.io/opening-crawl/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
 <a href="https://emjose.github.io/opening-crawl/">![Live Site](Assets/013-antm.gif)</a>
+
+• The **[Opening Crawl](https://emjose.github.io/opening-crawl/)** is best viewed on a desktop or laptop computer browser.
+
+• The **[Opening Crawl](https://emjose.github.io/opening-crawl/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+<br>
 
 #
 
@@ -85,6 +97,8 @@ open index.html
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
 
+<br>
+
 #
 
 <p id="copyright"><p>
@@ -96,6 +110,8 @@ open index.html
 -   <a href="https://www.starwars.com/">Star Wars</a> is trademarked by <a href="https://www.lucasfilm.com/">Lucasfilm Ltd.</a>. TM & © Lucasfilm Ltd. All Rights Reserved.
 
 -   <a href="http://www.vh1.com/shows/americas-next-top-model">America's Next Top Model</a> is copyright of <a href="https://www.viacomcbs.com/">ViacomCBS</a>. © ViacomCBS Inc. All Rights Reserved.
+
+<br>
 
 #
 
